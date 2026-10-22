@@ -1,5 +1,3 @@
-import type { Fighter, Team  } from "./types";
-import type { NewFighter } from "./fonction";
 export class Repository <T extends {id: number}> {
     protected data: T[] = [];
     protected nextId: number = 1;
